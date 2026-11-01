@@ -1,0 +1,5 @@
+x = float(input("What x to find the square root of? "))
+g = float(input("what guess to start with? "))
+print(g ** 2)
+next_guess = g - ((g ** 2 - x) / (2 * g))
+print(next_guess)
